@@ -45,7 +45,7 @@ async def align_audio(
         command = [
             "mfa", "align", 
             corpus_dir, 
-            "mandarin_pinyin_mfa", 
+            "mandarin_pinyin", 
             "mandarin_mfa", 
             aligned_dir, 
             "--clean"
